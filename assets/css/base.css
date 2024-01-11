@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+:root {
+  --color-grey: #232323;
+  --color-bg: #efefef;
+  --color-text: #777777;
+  --color-orange: #ff8484;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--color-bg);
+  line-height: 1.5;
+  color: var(--color-text);
+}
+.container {
+  width: 90vw;
+  max-width: 1140px;
+}
+.row {
+  flex-wrap: wrap;
+}
+.main {
+  width: 100%;
+}
+.bd {
+  border: 1px solid #000;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-grey);
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box {
+  width: 100%;
+  height: 500px;
+  background: greenyellow;
+}
+button {
+  border: none;
+  outline: none;
+  padding: 20px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 188px;
+  transition: background .4s, color .4s;
+}
+.btn_primary {
+  background: #f7d9c4;
+}
+.btn_primary:hover {
+  background: #fff;
+}
+.btn_secondary {
+  background: transparent;
+  border: 1px solid #fcfcfc41;
+  color: #fff;
+}
+.btn_secondary:hover {
+  background: #f7d9c4;
+  color: #000;
+}
+
